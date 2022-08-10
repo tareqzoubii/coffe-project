@@ -97,7 +97,7 @@ function saveData(data) {
 
 
 function getData() {
-    let retrievedData = localStorage.getItem("drink");
+    let retrievedData = localStorage.getItem("drinks");
     
     let arrayData = JSON.parse(retrievedData);
     // each object doesn't has access to render method
