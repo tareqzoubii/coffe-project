@@ -86,7 +86,7 @@ function renderAll() {
         allDrinks[i].renderTable();
     }
 }
-renderAll();
+//renderAll();
 
 // local storage:
 function saveData(data) {
@@ -109,7 +109,7 @@ function getData() {
     }
     }
     console.log(arrayData);
-    //renderAll();
+    renderAll();
 }
 
 getData();
